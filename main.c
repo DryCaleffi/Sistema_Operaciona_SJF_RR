@@ -5,7 +5,7 @@
 int main() {
     inicializar();
     int OP = 0;
-
+    int quan;
     enum{
         INSERIR = 1
        ,LISTAR = 2
@@ -36,7 +36,6 @@ do {
 
 
         case EXECUTAR_CIRCULAR:
-            int quan;
             printf("\nDefina o Quantum em inteiro: ");
                 scanf("%d",&quan);
             executar_circular(quan);
